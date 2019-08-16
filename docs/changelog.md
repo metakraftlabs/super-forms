@@ -5,7 +5,7 @@
 - Temp: temporary disabling nonce check because it is causing a lot of problems with websites that are caching their pages.
 - Fix: Textarea not populating with Entry data
 - Fix: Allow email addresses to contain a "+" symbol
-- Fix: When no variable conditions where met, do not empty the field, but rather keep the value it currently has (this makes sure it won't conflict with `?contact_entry_id=XXXX` when form was populated with entry data or possibly other data that was set via a GET parameter)
+- Fix: When no variable conditions are met, do not empty the field, but rather keep the value it currently has (this makes sure it won't conflict with `?contact_entry_id=XXXX` when form was populated with entry data or possibly other data that was set via a GET parameter)
 - Fix: issue with default radio button option and conditional logic on page load not affected
 - Fix: Missing arguments for `generate_random_code()`
 - Fix: Bug when both `Autosuggest` and `Keyword` is enabled for Text field
